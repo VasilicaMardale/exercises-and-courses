@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Homework week2 course 2
+
+    </title>
+</head>
+
+<body>
+    <div style="border-style: solid;border-color: rgb(223, 16, 68);" class="form">
+        <form>
+            <p><strong>Gender</strong></p>
+            <p><em>Please select:</em></p>
+            <input type="radio" name="Gender" value="male" checked>male
+            <input type="radio" name="Gender" value="female">female
+            <input type="radio" name="Gender" value="undecided">undecided<br>
+        </form>
+        <form>
+            <p> <em>* Required field </em> </p>
+            First Name *<br><input type="text" name="First Name" value="Ionescu" minlength="2" maxlength="20"
+                required><br>
+            Last Name *<br><input type="text" name="Last Name" value="Ionel" minlength="2" maxlength="20" required><br>
+            Age<br><input type="number" id="Age" name="Age" value="18" min="16" max="99"><br>
+            Email Adress *<br><input type="email" name="Email" value="Ionescu.Ionel@company.com" minlength="20"
+                maxlength="40" required><br>
+            Phone Number<br><input type="tel" id="Phone_Number" name="Phone Number" value="07535020772"><br>
+            Password<br><input type="password" name="Password" value="SECRET" minlength="20" maxlength="20"><br>
+            <label>Select City</label><br>
+            <select id="City">
+                <option value="Bucuresti">New York</option>
+                <option value="Iasi">Tokyo</option>
+                <option value="Londra">Londra</option>
+                <option value="Hong Kong">Hong Kong</option>
+            </select><br>
+
+            <input type="checkbox" name="Agreement" value="I agree"> I Agree to the <a
+                href="https://en.wikipedia.org/wiki/Terms_of_service" target="_blank"> Terms And Conditions</a>
+            <br>
+            <button type="submit" value="submit" onclick="alert('N-ai uitat nimic?')">Trimite</button>
+            <button type="reset" onclick="alert('Trebuie sa o iei de la capat! >>Sorry<<')"> Reseteaza</button>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form action="mailto:mardale.vasilica@yahoo.com"
+            style="border: solid darkblue; background-color: darkgoldenrod;">
+            <h3>Travel reservation form </h3>
+            <p><em>* denotes mandatary</em></p>
+            <label for="First_Name">First Name *</label>
+            <br>
+            <input type="text" id="First_Name" name="Full Name" placeholder="First Name" required><br>
+            <br>
+            <label for="Email_Adress"> Email Adress *</label>
+            <br>
+            <input type="email" id="Email_Adress" name="Email" placeholder="Name@company.com" required><br>
+            <br>
+            <label>Select Tour Package*</label>
+            <br>
+            <select id="Package">
+                <option value="Pentru Bombardieri">Pentru Bombardieri</option>
+                <option value="Regular">Regular</option>
+                <Option value="Xtra Regular">Xtra Regular</Option>
+                <option value="Premium (Non Bombardier)">Premium (Non Bombardier)</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="Arrival_Date"></label> Arrival Date*<br> <input type="date" id="Arrival_Date"
+                name="arrival date" value="2020-02-13" required><br>
+            <br>
+
+            <label for="awail"><b> What would you like to awail? *</b></label> <br>
+            <input type="checkbox" name="Boarding" id="awail">Boarding<br>
+            <input type="checkbox" name="Fooding">Fooding <br>
+            <input type="checkbox" name="Sight Seeing">Sight Seeing<br>
+            <br>
+            <label for="coupon"> <b>Discount Coupon code:</b> </label><br>
+            <input type="text" name="code" id="coupon" placeholder="insert coupon code here:"><br>
+            <br>
+            <b>Terms and Conditions *</b><br>
+            <label>
+                <input type="radio" name="terms" value="I Agree" required>I Agree
+            </label>
+            <label>
+                <input type="radio" name="terms" value="I disagree">I disagree<br>
+            </label>
+            <BR>
+
+            <input type="submit" value="Complete reservation">
+            <br>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>

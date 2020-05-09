@@ -1,0 +1,32 @@
+h1{
+    background: #66aa66;
+    border: solid 2px #ff0000;     
+    padding: 10px;
+}
+
+ul{
+    background: #de1e7e;
+    margin: 15px;
+    margin: 15px;
+    border: hidden;
+    background: #de1e7e;
+}
+li{
+    
+    
+}
+
+p{
+    display: inline-block; 
+    width: 500px;
+    height: 300px;
+    background: #ffbb11;
+    border: dotted 2px #000000;
+    
+}
+
+a{
+    text-decoration: none;
+    border-bottom: dashed #1e06fc;
+    background: #a1a1a1;
+}

@@ -1,0 +1,53 @@
+nav{
+    display: inline-block;
+    border-style: none;
+    clear: both;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+        
+}
+
+a{
+    text-decoration: none;
+    color: #fa4ddd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    clear: right;
+    margin: 10px;
+    
+}
+
+section{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin-left: 15%;
+    overflow: hidden;  
+    
+}
+
+.parag{
+    background: linear-gradient(#f803cf 5%,#291aee 30%,#62cf09 95%);
+    column-count: 4;
+    border-radius: 30px;
+    padding: 30px;
+    
+    
+    
+}
+
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    position: fixed;
+    left: 30%;
+    right: 20%;
+}
+
+e{
+    font-style: italic;
+    background: #949093;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+
+}

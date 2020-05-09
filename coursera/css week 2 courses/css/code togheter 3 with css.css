@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+a{
+    display: block;
+    font-weight: bold;
+    color: #fcfcfc;
+    font-style: oblique;
+    text-align: center;
+    background: #030ea5;
+    width: 200px;
+    padding: 4px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: inset;
+}
+
+a:hover{
+    background: #a50303;
+    color: #058105;
+
+}
+a:focus{
+    background: #ff8c00;
+    color: hsl(328, 100%, 54%);
+}
+a:active{
+    background: #00bfff;
+    color: #4b0082;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tabel 2 search form</title>
+</head>
+
+<body>
+    <br>
+    <form style="border: solid; border-color: darkviolet; background-color: darkturquoise;">
+        <label for="Receipe"><b>Search for:</b><br>
+            <input type="search" name="receipe" id="Receipe" placeholder="search receipe here">
+        </label>
+        <input type="button" name="receipe" value="search"><br>
+        <label>Match</label>
+        <input type="radio" name="match" value="Any word">Any word
+        <input type="radio" name="match" value="All words" checked>All words
+        <input type="radio" name="match" value="Exact phrase">Exact phrase
+        <br>
+        &emsp;&emsp; &emsp;
+        <input type="checkbox" name="match" value="Sounds-alike matching" checked>Sounds-alike matching
+        <br>
+        <label id="Date">Dated:</label>
+
+        <input type="radio" name="dated" value="Within the last year">
+        <select name="dated">
+            <option> Within the last year </option>
+            <option value="Within the last month">Within the last month</option>
+            <option value="Within the last day">Within the last day</option>
+        </select>
+        <br>
+        &emsp;&ensp; &ensp; &nbsp;
+        <input type="radio" name="dated" value="from" checked>
+        <label for="dated">From</label>
+        <select name="dated" id="month">
+            <option> September </option>
+            <option value="August">August</option>
+            <option value="July">July</option>
+            <option value="June">June</option>
+            <option value="May">May</option>
+        </select>
+        <select name="dated" id="day">
+            <option> 8 </option>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="14">14</option>
+        </select>
+        <label for=",">,</label>
+        <select name="dated" id=",">
+            <option> 2009 </option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+        </select>
+        <br>
+        &emsp;&emsp; &ensp;
+        &emsp;&emsp;
+        <label for="dated">To:</label>
+        <select name="dated" id="dated">
+            <option> September </option>
+            <option value="August">August</option>
+            <option value="July">July</option>
+            <option value="June">June</option>
+            <option value="May">May</option>
+        </select>
+        <select id="day1">
+            <option> 18 </option>
+            <option value="17">17</option>
+            <option value="16">16</option>
+            <option value="15">15</option>
+            <option value="14">14</option>
+        </select>
+        <label for=",">,</label>
+        <select name="dated" id="year1">
+            <option> 2011 </option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+        </select>
+        <br>
+        <label for="Description"> Within</label>
+        &nbsp; &nbsp;
+        <select name="whithin" id="Description">
+            <option value="Description">Description</option>
+            <option value="Relevance">Relevance</option>
+        </select>
+        <br>
+        <label for="show">Show </label>
+        &nbsp; &nbsp; &nbsp;
+        <select name="day" id="show">
+            <option value="10">10</option>
+            <option value="9">9</option>
+            <option value="8">8</option>
+            <option value="7">7</option>
+            <option value="6">6</option>
+        </select>
+        <label for="results">results</label>
+        <select name="results" id="results">
+            <option value="With">With</option>
+            <option value="whitout">whitout</option>
+        </select>
+        <label>summaries</label>
+        <br>
+        <label for="sort">Sort by:</label>
+        &nbsp;
+        <select name="sort" id="sort">
+            <option value="relevance">relevance</option>
+            <option value="newest">newest</option>
+            <option value="Best_match">Best match</option>
+        </select>
+    </form>
+</body>
+
+</html>

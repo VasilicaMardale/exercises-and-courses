@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Week 2 course 2 last table</title>
+</head>
+
+<body>
+<form style="border: solid rgb(243, 76, 9); background-color: darkturquoise; " >
+    <br>
+    <h2>My feedback form</h2>
+    <ul>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </li>
+        <li>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </li>
+        <li>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </li>
+        <li>
+
+            <p>Please check all the emotions that apply to you </p>
+            <ul>
+                <li><label for="emo1">Angry</label>
+                    <input type="checkbox" id="emo1" name="angry" checked>
+                </li>
+                <li>
+                    <label for="emo2">Sad</label>
+                    <input type="checkbox" id="emo2" name="sad">
+                </li>
+                <li>
+                    <label for="emo3">Happy</label>
+                    <input type="checkbox" id="emo3" name="happy">
+                </li>
+                <li>
+                    <label for="emo4">Ambivalent</label>
+                    <input type="checkbox" id="emo4" name="ambivalent">
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <p>How satisfied were you with your service</p>
+
+
+            <ul>
+                <li>
+                    <label for="sat1">Very satisfied</label>
+                    <input type="radio" id="sat1" name="satisfaction" checked>
+                </li>
+                <li>
+                    <label for="sat2">Satisfied</label>
+                    <input type="radio" id="sat2" name="satisfaction">
+                </li>
+                <li>
+                    <label for="sat3">Didn't care</label>
+                    <input type="radio" id="sat3" name="satisfaction">
+                </li>
+                <li>
+                    <label for="sat4">Dissatisfied</label>
+                    <input type="radio" id="sat4" name="satisfaction">
+                </li>
+                <li>
+                    <label for="sat5">Very dissatisfied</label>
+                    <input type="radio" id="sat5" name="satisfaction">
+                </li>
+            </ul>
+
+        </li>
+        <li>
+            <label for="comm">Further comments</label>
+                       <textarea id="comm" rows="4" cols="20" placeholder="Please write your comments here"></textarea>
+        </li>
+        <li>
+            <label for="photoInp">Bio photo:</label>
+            <input type="search" name="photoInp">
+            <input type="submit" id="photoInp" name="bioPhoto" value="Choose..." style="border-radius: 15px;" >
+        </li>
+        <li>
+            <label for="Location">Location visited</label>
+            <select name="Location" id="Location" aria-placeholder="Select location">
+                <option value="Select location">Select location</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Lisbon">Lisbon</option>
+                <option value="Milan">Milan</option>
+                <option value="Berlin">Berlin</option>
+            </select>
+        </li>
+    <li>
+        <input type="submit" style="border-radius: 15px;" value="submit"  >
+    </li>
+    </ul>
+
+
+</form>
+   
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+
+
+.div1{    
+    width: 30%;
+    background: #00ffff;
+    
+    display: table-cell;
+    overflow: auto;
+    display: table;
+    
+}
+
+.div{
+    display: table-cell;
+    float: right;
+}

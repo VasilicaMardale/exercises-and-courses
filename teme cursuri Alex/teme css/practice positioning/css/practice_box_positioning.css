@@ -1,0 +1,38 @@
+
+body{
+    background-color: #d3d3d3bb;
+}
+.box1{
+    border: none;
+    width: 150px;
+    height: 150px;
+    background: #ffff00;
+    position: absolute;
+    bottom: 45%;
+    left: 45%;
+    right: 45%;
+    top: 45%;
+    
+       
+ 
+}
+
+.box2{
+    border: none;
+    width: 150px;
+    height: 150px;
+    background: #0000ff;
+    position: relative;
+    left: 45%;
+    top: 25%;
+}
+
+.box3{
+    border: none;
+    width: 150px;
+    height: 150px;
+    background: #008000;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
