@@ -1,0 +1,47 @@
+/* h1:hover {
+    background-color: rgba(69, 216, 88, 0.404);
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+ol li:first-child{
+    color: chartreuse;
+    background-color: #00008b;
+}
+
+
+ol li:nth-child(5){
+    color:#ec1b53;
+    background-color: #ff8c00;   
+    
+}
+
+ul:hover{
+    background-color: #00ced1;
+} */
+
+
+div{
+    color: #000000;
+    background: #2db34a;
+    line-height: 200px;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 6px;
+    transition-property: width, border-radius, color,;
+    transition-duration: 5s;
+    /* transition-delay: 5s; */
+    
+    
+
+}
+
+div:hover{
+    color: #1e90ff;
+    width: 350px;
+    background: #2d31b3;
+    border-radius: 50%;
+}
